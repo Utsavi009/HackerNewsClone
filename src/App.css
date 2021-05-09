@@ -1,0 +1,64 @@
+.navbar, .footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(88, 144, 146);
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(39, 38, 38);
+}
+h1:hover {
+  transform: scale(1.1);
+}
+
+.news-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(204, 223, 221);
+}
+
+.displayOff {
+  display: none ;
+}
+
+.displayOn {
+  display: block;
+}
+
+span {
+  padding: 0 2rem 0 2rem;
+  font-weight: bold;
+}
+ul {
+  list-style-type: disclosure-closed;
+  padding-top: 1rem;
+}
+
+li {
+  padding: .3rem 0 .3rem 0;
+}
+
+.errMessages {
+  text-align: center;
+  padding-top: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+h5:hover {
+  color: rgb(88, 144, 146);
+  cursor: pointer;
+}
